@@ -91,37 +91,38 @@ Specific Steps:
 Register with IMDB and go to profile go to API go to key and fetch that 
 
 3rd PARTY PLUGIN
-  Install Material UI(For icons and components)
-    npm install @material-ui/core
-    npm install @material-ui/icons
 
-  Install axios(For API handling)
-    npm i axios
+    Install Material UI(For icons and components)
+      npm install @material-ui/core
+      npm install @material-ui/icons
 
-  Install React flip move(For smooth transition)
-    npm i react-flip-move
+    Install axios(For API handling)
+      npm i axios
 
-  Install react text truncate (For trimming the paragraph and add ... in end)
-    npm i react-text-truncate
+    Install React flip move(For smooth transition)
+      npm i react-flip-move
 
-  Install react youtube (For adding youtube player in the project)
-    npm i react-youtube
+    Install react text truncate (For trimming the paragraph and add ... in end)
+      npm i react-text-truncate
 
-  Install movie trailer(For search moview trailer by movie name given in youtube)
-    npm i movie-trailer
+    Install react youtube (For adding youtube player in the project)
+      npm i react-youtube
 
-
+    Install movie trailer(For search moview trailer by movie name given in youtube)
+      npm i movie-trailer
 
 DATABASE & DEPLOYMENT
-  > npm i firebase
-  > npm install -g firebase-tools
-  > login to gmail -> search for firebase -> choose account -> go to console -> create a project -> go to project setting -> grab the config file -> create firebase.js file in your application -> paste it
-  > firebase login
-  > firebase init
-  > Hosting -> Use Exiting project ->(pick the project name)
-  > insted of public give build
-  > Single page application? -> y
-  > npm run build(in future any chnages in the code means we have to use this again)
-  > firebase deploy
+      > npm i firebase
+      > npm install -g firebase-tools
+      > login to gmail -> search for firebase -> choose account -> go to console -> create a project -> go to project setting -> grab the config file -> create firebase.js file in your application -> paste it
+      > firebase login
+      > firebase init
+      > Hosting -> Use Exiting project ->(pick the project name)
+      > insted of public give build
+      > Single page application? -> y
+      > npm run build(in future any chnages in the code means we have to use this again)
+      > firebase deploy
 
 Note: npm i firebase (If not working try this and continue npm cache clean --force)
+
+Live Link : https://hulu-clone-1e183.web.app
