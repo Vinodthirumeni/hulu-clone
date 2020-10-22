@@ -66,3 +66,62 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+npx create-react-app hulu-clone
+npm install @material-ui/core
+npm install @material-ui/icons
+npm i axios
+npm i react-text-truncate
+npm i react-flip-move
+npm i react-youtube
+npm i movie-trailer
+
+PROJECT NAME : Hulu Clone
+
+TOOLS USED : ReactJs,Material UI,Firebase,imdb api,text truncate,flip move,youtube opener,youtube trailer searcher,axios API handler
+
+CREATE PROJECT : npx create-react-app hulu-clone
+
+DELETE UNWANTED STUFFS FROM PROJECT FOLDER : Delete unwanted files and thier dependencies
+delete app.test.js,logo.svg,setuptests.js and delete that dependencies in App.js as well
+
+IMDB Api Key: 19f84e11932abbc79e6d83f82d6d1045
+
+Specific Steps:
+Register with IMDB and go to profile go to API go to key and fetch that 
+
+3rd PARTY PLUGIN
+  Install Material UI(For icons and components)
+    npm install @material-ui/core
+    npm install @material-ui/icons
+
+  Install axios(For API handling)
+    npm i axios
+
+  Install React flip move(For smooth transition)
+    npm i react-flip-move
+
+  Install react text truncate (For trimming the paragraph and add ... in end)
+    npm i react-text-truncate
+
+  Install react youtube (For adding youtube player in the project)
+    npm i react-youtube
+
+  Install movie trailer(For search moview trailer by movie name given in youtube)
+    npm i movie-trailer
+
+
+
+DATABASE & DEPLOYMENT
+  > npm i firebase
+  > npm install -g firebase-tools
+  > login to gmail -> search for firebase -> choose account -> go to console -> create a project -> go to project setting -> grab the config file -> create firebase.js file in your application -> paste it
+  > firebase login
+  > firebase init
+  > Hosting -> Use Exiting project ->(pick the project name)
+  > insted of public give build
+  > Single page application? -> y
+  > npm run build(in future any chnages in the code means we have to use this again)
+  > firebase deploy
+
+Note: npm i firebase (If not working try this and continue npm cache clean --force)
