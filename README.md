@@ -85,7 +85,7 @@ CREATE PROJECT : npx create-react-app hulu-clone
 DELETE UNWANTED STUFFS FROM PROJECT FOLDER : Delete unwanted files and thier dependencies
 delete app.test.js,logo.svg,setuptests.js and delete that dependencies in App.js as well
 
-IMDB Api Key: 19f84e11932abbc79e6d83f82d6d1045
+IMDB Api Key: 
 
 Specific Steps:
 Register with IMDB and go to profile go to API go to key and fetch that 
